@@ -3,14 +3,19 @@ import background from "../assets/Background.png";
 import closeButton from "../assets/Button_Close.png"; 
 import minimizeButton from "../assets/Button_Minimize.png";
 
-function WindowFrame({ children }) {
+function WindowFrame({ children, onClose }) {
   return (
    <div className={styles.window} style={{ backgroundImage: `url(${background})` }}>
         <div className={styles.header}>
                 <span className={styles.title}>Egg Timer :3</span>
                 <div className={styles.buttons}>
                     <img src={minimizeButton} alt="Minimize" className={styles.icon} />
-                    <img src={closeButton} alt="Close" className={styles.icon} />
+                    <img 
+                        src={closeButton} 
+                        alt="Close" 
+                        className={styles.icon} 
+                        onClick={onClose}
+                     />
                 </div>    
         </div>
         <div className={styles.body}>

@@ -1,0 +1,16 @@
+.page {
+  min-height: 100vh;
+  background-color: #F4FFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  overflow: auto;
+}
+
+.hiddenText {
+  font-size: 2rem;
+  color: #BB9352;
+  font-family: "RainyHearts", sans-serif;
+  margin-top: 1rem;
+}
