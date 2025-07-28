@@ -1,0 +1,33 @@
+.menuItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  gap: 1.5rem;
+  width: fit-content;    
+  margin: 0 auto;
+}
+
+.eggCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.eggCard:hover {
+  transform: scale(1.05);
+}
+
+.eggImage {
+  width: 120px;
+  height: auto;
+}
+
+.eggLabel {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #BB9352;
+  font-family: "RainyHearts", sans-serif;
+}

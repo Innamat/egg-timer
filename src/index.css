@@ -1,6 +1,6 @@
 @font-face {
   font-family: "RainyHearts";
-  src: url('/fonts/rainy-hearts.ttf') format('truetype');
+  src: url('./assets/rainy-hearts.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

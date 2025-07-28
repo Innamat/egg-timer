@@ -10,11 +10,13 @@ function StartPage() {
 
   return (
     <Page>
-        <img src={Whole_Egg} alt="Egg" className={styles.egg} />
-        <p className={styles.text}>Let’s get cracking!</p>
-        <button className={styles.startButton} onClick={() => navigate("/menu")}>
-        Start
-        </button>
+        <div className={styles.startContent}>
+          <img src={Whole_Egg} alt="Egg" className={styles.egg} />
+          <p className={styles.text}>Let’s get cracking!</p>
+          <button className={styles.startButton} onClick={() => navigate("/menu")}>
+          Start
+          </button>
+        </div>  
     </Page>
   );
 }
